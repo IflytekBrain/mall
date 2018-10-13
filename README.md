@@ -1,4 +1,4 @@
-# mmall_learning
+
 
 MarkDown里面没有图...小伙伴们请看WORD文档呀...
 
@@ -118,7 +118,5 @@ http://learning.happymmall.com/%E4%BA%8C%E6%9C%9F%E9%9B%86%E7%BE%A4%E5%8F%8A%E7%
 
 
 # 最后希望小伙伴们学的开心~码的快乐~收获满满~祝大家工作愉快~生活幸福~
-
-Geely
 
 
