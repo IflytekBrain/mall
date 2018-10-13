@@ -1,0 +1,31 @@
+# General
+.DS_Store
+*.py[cod]
+
+# IntelliJ IDEA
+*.iml
+.idea
+
+# gradle
+.gradle
+gradle
+gradlew
+gradlew.bat
+build
+
+# huskar & soa
+backList
+soa-backup
+
+# etc
+*/etc/env/global.properties
+*/etc/env/run.properties
+
+# release
+/release
+
+out
+
+dist
+
+classes
