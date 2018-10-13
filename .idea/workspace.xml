@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8e3943-b63e-4529-9d4d-4a12abcbd45e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eb8e3943-b63e-4529-9d4d-4a12abcbd45e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +24,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -840,6 +837,14 @@
       <workItem from="1514246957993" duration="646000" />
       <workItem from="1514248038541" duration="9735000" />
     </task>
+    <task id="LOCAL-00001" summary="commit git">
+      <created>1539443480329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539443480329</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -853,11 +858,11 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.32791728" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.31099194" side_tool="true" visible="true" weight="0.38847858" />
       <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.09450402" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2200282" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" visible="true" weight="0.32791728" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6896783" weight="0.38847858" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.32791728" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.68900806" visible="true" weight="0.38847858" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31032172" />
@@ -923,6 +928,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit git" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1269,8 +1278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
