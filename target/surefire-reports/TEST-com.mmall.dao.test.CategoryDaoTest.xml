@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.mmall.dao.test.CategoryDaoTest" time="5.629" errors="1" skipped="1">
+  <properties>
+    <property name="idea.version" value="2018.1.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\mooc\mmallv4.0"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\mooc\mmallv4.0"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\14500\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\IntelliJidea\IntelliJ IDEA Community Edition 2018.1.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;D:\soft\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\soft\apache-maven-3.5.4\bin;C:\Users\14500\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\14500"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="14500"/>
+    <property name="java.class.path" value="D:\IntelliJidea\IntelliJ IDEA Community Edition 2018.1.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;D:\IntelliJidea\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.1.5 install -f pom.xml -P dev"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\IntelliJidea\IntelliJ IDEA Community Edition 2018.1.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.mmall.dao.test.CategoryDaoTest" name="getCategoryChild" time="0.125">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.mmall.dao.test.CategoryDaoTest" name="testChildService" time="5.504">
+    <error message="com/alipay/demo/trade/service/AlipayTradeService" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/alipay/demo/trade/service/AlipayTradeService
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:234)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1040)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1013)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:121)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.ClassNotFoundException: com.alipay.demo.trade.service.AlipayTradeService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 52 more
+</error>
+    <system-out>16:05:38,214 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+16:05:38,214 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+16:05:38,214 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/D:/mooc/mmallv4.0/target/classes/logback.xml]
+16:05:38,252 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:05:38,254 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeFilter scanning period to 1 minutes
+16:05:38,254 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[D:\mooc\mmallv4.0\target\classes\logback.xml]] every 60 seconds. 
+16:05:38,254 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+16:05:38,269 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+16:05:38,270 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [console]
+16:05:38,276 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@5:19 - no applicable action for [encoding], current ElementPath  is [[configuration][appender][encoding]]
+16:05:38,277 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:05:38,301 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:05:38,302 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [mmall]
+16:05:38,309 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:21 - no applicable action for [append], current ElementPath  is [[configuration][appender][rollingPolicy][append]]
+16:05:38,312 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+16:05:38,313 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern CATALINA_HOME_IS_UNDEFINED/logs/mmall.log.%d{yyyy-MM-dd} for the active file
+16:05:38,315 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is &apos;yyyy-MM-dd&apos; from file name pattern &apos;CATALINA_HOME_IS_UNDEFINED/logs/mmall.log.%d{yyyy-MM-dd}.gz&apos;.
+16:05:38,315 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+16:05:38,315 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Sat Oct 13 16:05:38 CST 2018
+16:05:38,316 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:05:38,318 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[mmall] - Active log file name: CATALINA_HOME_IS_UNDEFINED/logs/mmall.log
+16:05:38,318 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[mmall] - File property is set to [CATALINA_HOME_IS_UNDEFINED/logs/mmall.log]
+16:05:38,321 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:05:38,321 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [error]
+16:05:38,322 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@34:21 - no applicable action for [append], current ElementPath  is [[configuration][appender][rollingPolicy][append]]
+16:05:38,322 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+16:05:38,322 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern CATALINA_HOME_IS_UNDEFINED/logs/error.log.%d{yyyy-MM-dd} for the active file
+16:05:38,323 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is &apos;yyyy-MM-dd&apos; from file name pattern &apos;CATALINA_HOME_IS_UNDEFINED/logs/error.log.%d{yyyy-MM-dd}.gz&apos;.
+16:05:38,323 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+16:05:38,323 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Sat Oct 13 16:05:38 CST 2018
+16:05:38,323 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:05:38,326 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[error] - Active log file name: CATALINA_HOME_IS_UNDEFINED/logs/error.log
+16:05:38,326 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[error] - File property is set to [CATALINA_HOME_IS_UNDEFINED/logs/error.log]
+16:05:38,326 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.mmall] to INFO
+16:05:38,327 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.mmall] to false
+16:05:38,327 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [mmall] to Logger[com.mmall]
+16:05:38,327 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [console] to Logger[com.mmall]
+16:05:38,327 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [error] to Logger[com.mmall]
+16:05:38,327 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.mmall.dao] to DEBUG
+16:05:38,327 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+16:05:38,327 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [console] to Logger[ROOT]
+16:05:38,327 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [error] to Logger[ROOT]
+16:05:38,327 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:05:38,328 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@238d68ff - Registering current configuration as safe fallback point
+
+[16:05:38.361][DEBUG][i.n.u.i.logging.InternalLoggerFactory][main] Using SLF4J as the default logging framework
+[16:05:38.363][DEBUG][io.netty.util.internal.PlatformDependent][main] -Dio.netty.noUnsafe: false
+[16:05:38.366][DEBUG][i.netty.util.internal.PlatformDependent0][main] java.nio.Buffer.address: available
+[16:05:38.367][DEBUG][i.netty.util.internal.PlatformDependent0][main] sun.misc.Unsafe.theUnsafe: available
+[16:05:38.367][DEBUG][i.netty.util.internal.PlatformDependent0][main] sun.misc.Unsafe.copyMemory: available
+[16:05:38.368][DEBUG][i.netty.util.internal.PlatformDependent0][main] direct buffer constructor: available
+[16:05:38.368][DEBUG][i.netty.util.internal.PlatformDependent0][main] java.nio.Bits.unaligned: available, true
+[16:05:38.368][DEBUG][i.netty.util.internal.PlatformDependent0][main] java.nio.DirectByteBuffer.&lt;init&gt;(long, int): available
+[16:05:38.369][DEBUG][io.netty.util.internal.Cleaner0][main] java.nio.ByteBuffer.cleaner(): available
+[16:05:38.369][DEBUG][io.netty.util.internal.PlatformDependent][main] Platform: Windows
+[16:05:38.369][DEBUG][io.netty.util.internal.PlatformDependent][main] Java version: 8
+[16:05:38.369][DEBUG][io.netty.util.internal.PlatformDependent][main] sun.misc.Unsafe: available
+[16:05:38.370][DEBUG][io.netty.util.internal.PlatformDependent][main] -Dio.netty.noJavassist: false
+[16:05:38.370][DEBUG][io.netty.util.internal.PlatformDependent][main] Javassist: unavailable
+[16:05:38.370][DEBUG][io.netty.util.internal.PlatformDependent][main] You don&apos;t have Javassist in your class path or you don&apos;t have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[16:05:38.371][DEBUG][io.netty.util.internal.PlatformDependent][main] -Dio.netty.tmpdir: C:\Users\14500\AppData\Local\Temp (java.io.tmpdir)
+[16:05:38.371][DEBUG][io.netty.util.internal.PlatformDependent][main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[16:05:38.371][DEBUG][io.netty.util.internal.PlatformDependent][main] -Dio.netty.noPreferDirect: false
+[16:05:38.371][DEBUG][io.netty.util.internal.PlatformDependent][main] io.netty.maxDirectMemory: 1881145344 bytes
+[16:05:38.798][INFO][org.redisson.Version][main] Redisson 2.9.0
+[16:05:38.801][DEBUG][i.n.channel.MultithreadEventLoopGroup][main] -Dio.netty.eventLoopThreads: 16
+[16:05:38.826][DEBUG][io.netty.channel.nio.NioEventLoop][main] -Dio.netty.noKeySetOptimization: false
+[16:05:38.826][DEBUG][io.netty.channel.nio.NioEventLoop][main] -Dio.netty.selectorAutoRebuildThreshold: 512
+[16:05:38.829][DEBUG][io.netty.util.internal.PlatformDependent][main] org.jctools-core.MpscChunkedArrayQueue: available
+[16:05:38.922][DEBUG][io.netty.util.ResourceLeakDetector][main] -Dio.netty.leakDetection.level: simple
+[16:05:38.922][DEBUG][io.netty.util.ResourceLeakDetector][main] -Dio.netty.leakDetection.maxRecords: 4
+[16:05:38.922][DEBUG][i.netty.util.ResourceLeakDetectorFactory][main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@55e8ec2f
+[16:05:38.925][DEBUG][io.netty.util.internal.ThreadLocalRandom][main] -Dio.netty.initialSeedUniquifier: 0xd6057288373770d3
+[16:05:38.960][DEBUG][io.netty.channel.DefaultChannelId][main] -Dio.netty.processId: 8648 (auto-detected)
+[16:05:38.962][DEBUG][io.netty.util.NetUtil][main] -Djava.net.preferIPv4Stack: false
+[16:05:38.962][DEBUG][io.netty.util.NetUtil][main] -Djava.net.preferIPv6Addresses: false
+[16:05:39.090][DEBUG][io.netty.util.NetUtil][main] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[16:05:39.090][DEBUG][io.netty.util.NetUtil][main] \proc\sys\net\core\somaxconn: 200 (non-existent)
+[16:05:39.237][DEBUG][io.netty.channel.DefaultChannelId][main] -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.numHeapArenas: 16
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.numDirectArenas: 16
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.pageSize: 8192
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.maxOrder: 11
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.chunkSize: 16777216
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.tinyCacheSize: 512
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.smallCacheSize: 256
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.normalCacheSize: 64
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.cacheTrimInterval: 8192
+[16:05:39.261][DEBUG][io.netty.buffer.PooledByteBufAllocator][main] -Dio.netty.allocator.useCacheForAllThreads: true
+[16:05:39.268][DEBUG][io.netty.buffer.ByteBufUtil][main] -Dio.netty.allocator.type: pooled
+[16:05:39.268][DEBUG][io.netty.buffer.ByteBufUtil][main] -Dio.netty.threadLocalDirectBufferSize: 65536
+[16:05:39.268][DEBUG][io.netty.buffer.ByteBufUtil][main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[16:05:40.299][WARN][o.r.connection.pool.MasterConnectionPool][redisson-netty-1-3] host /127.0.0.1:6379 disconnected due to failedAttempts=3 limit reached
+[16:05:42.614][ERROR][com.mmall.common.RedissonManager][main] redisson init error
+org.redisson.client.RedisConnectionException: Can&apos;t init enough connections amount! Only 0 from 10 were initialized. Server: /127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool$2$1.operationComplete(ConnectionPool.java:128) ~[redisson-2.9.0.jar:na]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:507) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:481) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:420) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:122) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:75) ~[redisson-2.9.0.jar:na]
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:298) ~[redisson-2.9.0.jar:na]
+	at org.redisson.connection.pool.ConnectionPool.access$400(ConnectionPool.java:53) ~[redisson-2.9.0.jar:na]
+	at org.redisson.connection.pool.ConnectionPool$4.operationComplete(ConnectionPool.java:268) ~[redisson-2.9.0.jar:na]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:507) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:481) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:420) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:122) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:75) ~[redisson-2.9.0.jar:na]
+	at org.redisson.connection.ClientConnectionsEntry$1.operationComplete(ClientConnectionsEntry.java:141) ~[redisson-2.9.0.jar:na]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:507) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:481) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:420) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:122) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:75) ~[redisson-2.9.0.jar:na]
+	at org.redisson.client.RedisClient$2$2.run(RedisClient.java:163) ~[redisson-2.9.0.jar:na]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:445) ~[netty-transport-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) ~[netty-common-4.1.8.Final.jar:4.1.8.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_171]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_171]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_171]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:347) ~[netty-transport-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-transport-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:630) ~[netty-transport-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:565) ~[netty-transport-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:479) ~[netty-transport-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:441) ~[netty-transport-4.1.8.Final.jar:4.1.8.Final]
+	... 3 common frames omitted
+[16:05:42.634][DEBUG][org.apache.ibatis.logging.LogFactory][main] Logging initialized using &apos;class org.apache.ibatis.logging.slf4j.Slf4jImpl&apos; adapter.
+[16:05:42.724][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Property `configuration` or &apos;configLocation&apos; not specified, using default MyBatis Configuration
+[16:05:42.752][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Registered plugin: &apos;com.github.pagehelper.PageHelper@66238be2&apos;
+[16:05:42.872][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Parsed mapper file: &apos;file [D:\mooc\mmallv4.0\target\classes\mappers\CartMapper.xml]&apos;
+[16:05:42.888][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Parsed mapper file: &apos;file [D:\mooc\mmallv4.0\target\classes\mappers\CategoryMapper.xml]&apos;
+[16:05:42.924][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Parsed mapper file: &apos;file [D:\mooc\mmallv4.0\target\classes\mappers\OrderItemMapper.xml]&apos;
+[16:05:42.960][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Parsed mapper file: &apos;file [D:\mooc\mmallv4.0\target\classes\mappers\OrderMapper.xml]&apos;
+[16:05:42.978][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Parsed mapper file: &apos;file [D:\mooc\mmallv4.0\target\classes\mappers\PayInfoMapper.xml]&apos;
+[16:05:43.004][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Parsed mapper file: &apos;file [D:\mooc\mmallv4.0\target\classes\mappers\ProductMapper.xml]&apos;
+[16:05:43.021][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Parsed mapper file: &apos;file [D:\mooc\mmallv4.0\target\classes\mappers\ShippingMapper.xml]&apos;
+[16:05:43.039][DEBUG][org.mybatis.spring.SqlSessionFactoryBean][main] Parsed mapper file: &apos;file [D:\mooc\mmallv4.0\target\classes\mappers\UserMapper.xml]&apos;
+</system-out>
+    <system-err>ʮ�� 13, 2018 4:05:37 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [applicationContext.xml]
+ʮ�� 13, 2018 4:05:37 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [applicationContext-spring-session.xml]
+ʮ�� 13, 2018 4:05:37 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [applicationContext-datasource.xml]
+ʮ�� 13, 2018 4:05:37 ���� org.springframework.context.support.AbstractApplicationContext prepareRefresh
+��Ϣ: Refreshing org.springframework.context.support.GenericApplicationContext@224edc67: startup date [Sat Oct 13 16:05:37 CST 2018]; root of context hierarchy
+ʮ�� 13, 2018 4:05:37 ���� org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+��Ϣ: Overriding bean definition for bean &apos;org.springframework.context.annotation.internalScheduledAnnotationProcessor&apos;: replacing [Generic bean: class [org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.scheduling.annotation.SchedulingConfiguration; factoryMethodName=scheduledAnnotationProcessor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/scheduling/annotation/SchedulingConfiguration.class]]
+ʮ�� 13, 2018 4:05:38 ���� org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+��Ϣ: Loading properties file from class path resource [datasource.properties]
+ʮ�� 13, 2018 4:05:38 ���� org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+��Ϣ: Loading properties file from class path resource [datasource.properties]
+ʮ�� 13, 2018 4:05:38 ���� org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization
+��Ϣ: Bean &apos;org.springframework.scheduling.annotation.SchedulingConfiguration&apos; of type [class org.springframework.scheduling.annotation.SchedulingConfiguration$$EnhancerBySpringCGLIB$$da1d04c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+</system-err>
+  </testcase>
+</testsuite>
